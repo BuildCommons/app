@@ -69,7 +69,7 @@ function Router({ active, routes }) {
       <Widget
         src={src}
         props={{
-          currentPath: `/${config_account}/widget/app?page=${page}`,
+          currentPath: `/${config_account}/widget/Index?page=${page}`,
           page: tab,
           ...passProps,
           ...defaultProps,
