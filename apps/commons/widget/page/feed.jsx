@@ -1,7 +1,6 @@
 const { currentPath, page, ...passProps } = props;
 
-// require a config in order to for sidebar layout
-const { routes } = VM.require("${config_account}/widget/config.demo") ?? {
+const { routes } = VM.require("${config_account}/widget/config.feed") ?? {
   routes: {},
 };
 
@@ -31,8 +30,7 @@ function Router({ active, routes }) {
         defaultProps = { ...defaultProps, ...currentRoute.init };
       }
     } else {
-      // Handle 404 or default case for unknown routes
-      return <p>404 Not Found</p>;
+      return <p>ERROR 404 - Nothing Found</p>;
     }
   }
 

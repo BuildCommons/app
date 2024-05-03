@@ -1,9 +1,9 @@
 {
-  "name": "quickstart",
-  "version": "0.0.0",
-  "description": "",
-  "author": "nearbuilders",
-  "license": "MIT",
+  "name": "commons",
+  "version": "0.0.8",
+  "description": "Let's build!",
+  "author": "buildcommons",
+  "license": "CC0-1.0",
   "scripts": {
     "bw": "bos-workspace",
     "dev": "bw ws dev",

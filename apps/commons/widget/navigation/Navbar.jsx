@@ -186,8 +186,8 @@ const Navbar = ({ page, routes, ...props }) => (
         >
           <img
             style={{ width: 85, objectFit: "cover" }}
-            src="https://ipfs.near.social/ipfs/bafkreihbwho3qfvnu4yss3eh5jrx6uxhrlzdgtdjyzyjrpa6odro6wdxya"
-            alt="Build DAO Logo"
+            src="https://builders.mypinata.cloud/ipfs/QmQmKGGJXhkhGrTbE4MgJ3G1wUUu8eo7mNKwRSCB5tihCw"
+            alt="Build Commons"
           />
         </Link>
         <ButtonGroup style={{ flex: 1 }}>
@@ -231,8 +231,8 @@ const Navbar = ({ page, routes, ...props }) => (
         >
           <img
             style={{ width: 85, objectFit: "cover" }}
-            src="https://ipfs.near.social/ipfs/bafkreihbwho3qfvnu4yss3eh5jrx6uxhrlzdgtdjyzyjrpa6odro6wdxya"
-            alt="Build DAO Logo"
+            src="https://builders.mypinata.cloud/ipfs/QmQmKGGJXhkhGrTbE4MgJ3G1wUUu8eo7mNKwRSCB5tihCw"
+            alt="Build Commons"
           />
         </Link>
         <Button

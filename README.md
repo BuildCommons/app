@@ -1,6 +1,8 @@
-# Quickstart
+# Build Commons
 
 ## Getting started
+
+Run this BOS gateway at [127.0.0.1:8080](http://127.0.0.1:8080) to render your widgets locally.
 
 1. Install packages
 
@@ -14,4 +16,4 @@ yarn install
 yarn run dev
 ```
 
-This will start a gateway at [127.0.0.1:8080](http://127.0.0.1:8080) which will render your local widgets. The entry point for this app is [quickstart.near/widget/app](http://127.0.0.1:8080/quickstart.near/widget/greeting)
+The main entry point for this app is `buildcommons.near/widget/app`

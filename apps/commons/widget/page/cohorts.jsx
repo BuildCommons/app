@@ -43,7 +43,7 @@ return (
               textDecoration: "none",
               color: "#000",
             }}
-            href={props.buttonLink ?? "https://nearbuilders.org"}
+            href={props.buttonLink ?? "https://commons.build"}
           >
             <b>{props.buttonText ?? "START"}</b>
           </a>

@@ -60,8 +60,7 @@ function Router({ active, routes }) {
         defaultProps = { ...defaultProps, ...currentRoute.init };
       }
     } else {
-      // Handle 404 or default case for unknown routes
-      return <p>404 Not Found</p>;
+      return <p>ERROR 404 - Nothing Found</p>;
     }
   }
 

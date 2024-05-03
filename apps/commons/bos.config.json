@@ -1,9 +1,9 @@
 {
-  "account": "quickstart.near",
+  "account": "buildcommons.near",
   "aliases": ["./aliases.mainnet.json"],
   "overrides": {
     "testnet": {
-      "account": "quickstart.testnet",
+      "account": "buildcommons.testnet",
       "aliases": ["./aliases.testnet.json"]
     }
   }

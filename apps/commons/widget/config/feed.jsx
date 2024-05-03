@@ -7,8 +7,8 @@ function formatDate(date) {
   return date.toLocaleDateString("en-US", options);
 }
 
-const daoName = "Build DAO";
-const feedLink = "https://nearbuilders.org/feed";
+const daoName = "Build Commons";
+const feedLink = "https://commons.build/feed";
 
 return {
   type: "app",
@@ -22,21 +22,23 @@ return {
         requiredHashtags: ["build"],
       },
     },
-    demo: {
+    commons: {
       path: "${alias_builddao}/widget/Feed",
       blockHeight: "final",
       init: {
-        name: "Demo",
+        name: "Commons",
         icon: "bi-lightbulb",
-        requiredHashtags: ["build", "demo"],
-        template: `## demo TITLE
-(posted via [${daoName} Gateway](${feedLink}?tab=demo))
+        requiredHashtags: ["build", "commons"],
+        template: `### TITLE
 
-**What Demo are you proposing?**
-- [Describe the Demo]
+**What are you building?**
+- [summary / description]
 
-**Context or additional information:**
-- [Provide any context or details]
+**How does it work?**
+- [design + schematics]
+
+**Additional information:**
+- [context or details]
 `,
       },
     },

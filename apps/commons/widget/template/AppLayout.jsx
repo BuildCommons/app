@@ -1,7 +1,3 @@
-/**
- * This is a standard layout with a header, body, and a footer
- */
-
 const { Button } = VM.require("${alias_builddao}/widget/components") || {
   Button: () => <></>,
 };
