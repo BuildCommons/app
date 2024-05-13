@@ -16,4 +16,4 @@ yarn install
 yarn run dev
 ```
 
-The main entry point for this app is `buildcommons.near/widget/Index`
+The main entry point for this app is `buildcommons.near/widget/app`

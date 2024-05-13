@@ -69,7 +69,7 @@ const NavLink = ({ to, children }) => (
   <Link
     key={to}
     to={href({
-      widgetSrc: "${config_account}/widget/Index",
+      widgetSrc: "${config_account}/widget/app",
       params: {
         page: to,
       },
@@ -178,7 +178,7 @@ const Navbar = ({ page, routes, ...props }) => (
         <Link
           style={{ flex: 1 }}
           to={href({
-            widgetSrc: "${config_account}/widget/Index",
+            widgetSrc: "${config_account}/widget/app",
             params: {
               page: "home",
             },
@@ -223,7 +223,7 @@ const Navbar = ({ page, routes, ...props }) => (
       <MobileNavigation>
         <Link
           to={href({
-            widgetSrc: "${config_account}/widget/Index",
+            widgetSrc: "${config_account}/widget/app",
             params: {
               page: "home",
             },
