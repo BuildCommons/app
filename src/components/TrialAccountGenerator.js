@@ -15,8 +15,8 @@ export const TrialAccountGenerator = ({ trigger }) => {
       // // Do I really need to get the trial account path like this?
       // // It does help me make localhost work for local testing. Need to change to trial URL in app.js to make it work though.
 
-      //https://www.nearbuilders.org/join?from=trial/#trial-url/ACCOUNT_ID/SECRET_KEY
-      const path = body.url.split("https://www.nearbuilders.org")[1];
+      //https://www.commons.build/join?from=trial/#trial-url/ACCOUNT_ID/SECRET_KEY
+      const path = body.url.split("https://www.commons.build")[1];
 
       //This does not work right now because of keypom selector is implemented.
       //window.location.href = `${window.location.origin}${path}`;

@@ -1,5 +1,5 @@
 const TestnetDomains = {
-  "test.nearbuilders.org": true,
+  "test.commons.build": true,
   "127.0.0.1": true,
   "192.168.1.24": true,
 };
@@ -8,10 +8,10 @@ export const NetworkId =
   window.location.hostname in TestnetDomains ? "testnet" : "mainnet";
 
 const TestnetWidgets = {
-  default: "builddao.testnet/widget/app",
-  login: "builddao.testnet/widget/login",
-  trialAccountBanner: "builddao.testnet/widget/TrialAccountBanner",
-  onboardingFlow: "builddao.testnet/widget/OnboardingFlow",
+  default: "buildcommons.testnet/widget/app",
+  login: "buildcommons.testnet/widget/login",
+  trialAccountBanner: "buildcommons.testnet/widget/TrialAccountBanner",
+  onboardingFlow: "buildcommons.testnet/widget/OnboardingFlow",
 
   image: "eugenethedream/widget/Image",
   viewSource: "eugenethedream/widget/WidgetSource",
@@ -25,8 +25,8 @@ const TestnetWidgets = {
 };
 
 const MainnetWidgets = {
-  default: "buildhub.near/widget/app",
-  login: "buildhub.near/widget/login",
+  default: "buildcommons.near/widget/app",
+  login: "buildcommons.near/widget/login",
   trialAccountBanner: "buildhub.near/widget/TrialAccountBanner",
   onboardingFlow: "buildhub.near/widget/OnboardingFlow",
 
