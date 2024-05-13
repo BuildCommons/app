@@ -10,7 +10,7 @@ Run this BOS gateway at [127.0.0.1:8080](http://127.0.0.1:8080) to render your w
 yarn install
 ```
 
-2. Start dev environment
+2. Start workspace
 
 ```cmd
 yarn run dev
