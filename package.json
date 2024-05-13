@@ -8,7 +8,9 @@
     "bw": "bos-workspace",
     "dev": "bw ws dev",
     "dev:testnet": "bw ws dev -n testnet",
-    "build": "bw ws build",
+    "dev:gateway": "yarn run serve -- --env mode=development",
+    "prod": "yarn webpack -- --env mode=production",
+    "build": "yarn prod",
     "build:testnet": "bw ws build -n testnet"
   },
   "devDependencies": {
