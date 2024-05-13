@@ -1,4 +1,4 @@
-# Build Commons
+# BuildCommons
 
 ## Getting started
 
