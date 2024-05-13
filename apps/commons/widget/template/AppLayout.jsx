@@ -1,7 +1,3 @@
-const { Button } = VM.require("${alias_builddao}/widget/components") || {
-  Button: () => <></>,
-};
-
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -18,23 +14,10 @@ const ContentContainer = styled.div`
   width: 100%;
 `;
 
-const Header = ({ page, routes, ...props }) => (
-  <Widget
-    src="${config_account}/widget/navigation.Navbar"
-    props={{ page, routes, ...props }}
-  />
-);
-
-const Footer = (props) => {
-  return <></>;
-};
-
-function AppLayout({ routes, page, children, ...props }) {
+function AppLayout({ page, children }) {
   return (
     <Container>
-      <Header page={page} routes={routes} {...props} />
       <ContentContainer key={page}>{children}</ContentContainer>
-      <Footer page={page} />
     </Container>
   );
 }
